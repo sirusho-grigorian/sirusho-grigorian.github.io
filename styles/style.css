@@ -1,0 +1,138 @@
+* {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------------------- HEADER --------------------- */
+
+.header {
+    height: 300px;
+    background-color: #02536e;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#main {
+   max-width: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+#portrait {
+    height: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+#name img {
+    height: 35px;
+}
+
+#portrait:hover {
+    transform: scaleX(-1);
+}
+
+#social-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#social-links a img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/*------------------- SUMMARY --------------------- */
+
+.content {
+    margin: 40px 60px;
+}
+
+#border {
+    width: 100%;
+    margin: 0 auto;
+    background: #02536e;
+    height: 2px;
+}
+
+h3 {
+    color: #02536e;
+    text-transform: uppercase;
+    margin: 8px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#text {
+    padding: 20px 60px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*------------------- KEY SKILLS --------------------- */
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0
+}
+
+li {
+    font-size: 20px;
+    margin: 0 30px;
+    line-height: 30px;
+}
+
+/*------------------- TECHNICAL SKILLS --------------------- */
+
+#tech-skills {
+    justify-content: flex-start;
+}
+
+/*------------------- PROFESSIONAL EXPERIENCE --------------------- */
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title div {
+    margin: 0 
+}
+
+/*------------------- EDUCATION --------------------- */
+
+
+.lists {
+    flex-direction: column;
+    align-items: flex-start;
+}
